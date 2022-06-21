@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="xfr-Vn-ze6">
-                                <rect key="frame" x="157" y="110" width="100" height="388"/>
+                                <rect key="frame" x="157" y="151" width="100" height="388"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GhL-QT-C8p">
+                                    <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GhL-QT-C8p">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="GhL-QT-C8p" secondAttribute="height" multiplier="1:1" id="Feg-ws-AvN"/>
+                                            <constraint firstAttribute="height" secondItem="GhL-QT-C8p" secondAttribute="width" multiplier="1:1" id="Feg-ws-AvN"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="">
@@ -46,7 +46,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zp3-0Q-Qbc">
-                                <rect key="frame" x="129" y="716" width="156" height="72"/>
+                                <rect key="frame" x="179" y="757" width="56" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Start"/>
                                 <connections>
@@ -57,13 +57,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="xfr-Vn-ze6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="66" id="6OL-GB-5Xy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xfr-Vn-ze6" secondAttribute="trailing" constant="157" id="Alq-MD-rdJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zp3-0Q-Qbc" secondAttribute="bottom" constant="74" id="DAr-h0-ilO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zp3-0Q-Qbc" secondAttribute="trailing" constant="129" id="eYC-kg-EIq"/>
-                            <constraint firstItem="zp3-0Q-Qbc" firstAttribute="top" secondItem="xfr-Vn-ze6" secondAttribute="bottom" constant="218" id="eeZ-H6-Jez"/>
-                            <constraint firstItem="zp3-0Q-Qbc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="s0q-Fo-elX"/>
-                            <constraint firstItem="xfr-Vn-ze6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="xT7-sG-5sl"/>
+                            <constraint firstItem="xfr-Vn-ze6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="107" id="R5O-YX-a33"/>
+                            <constraint firstItem="zp3-0Q-Qbc" firstAttribute="centerX" secondItem="xfr-Vn-ze6" secondAttribute="centerX" id="YPf-Mw-KLh"/>
+                            <constraint firstItem="xfr-Vn-ze6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="nMH-wk-MNI"/>
+                            <constraint firstItem="xfr-Vn-ze6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v8E-8z-K3S"/>
                         </constraints>
                     </view>
                     <connections>
@@ -75,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="65.625"/>
+            <point key="canvasLocation" x="279.71014492753625" y="27.455357142857142"/>
         </scene>
     </scenes>
     <resources>
